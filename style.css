@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    background-color: rgb(240, 249, 255);
+}
+
+.container {
+    max-width: 380px;
+    margin: 10px auto;
+}
+
+form {
+    background-color: #fff;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    gap: 7px;
+}
+
+form textarea {
+    min-height: 150px;
+    max-height: 300px;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+form input[type="text"], [type="email"], textarea {
+    padding: 10px;
+    border: 1px solid rgb(0, 204, 255);
+    width: 100%;
+    border-radius: 5px;
+}
+
+form input::placeholder {
+    color: #0a07076c;
+    font-weight: bold;
+}
+
+form button {
+    background: none;
+    padding: 10px;
+    display: block;
+    margin: 10px auto;
+    border: 1px solid #008bfd;
+    border-radius: 5px;
+    width: 50%;
+    color: #008bfd;
+}
+
+form button:hover {
+    background-color: #008bfd;
+    color: #fff;
+}
+
